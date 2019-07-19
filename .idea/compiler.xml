@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.gunjan.logging" />
+        <module name="com.gunjan.search" />
+        <module name="com.gunjan.service.provider.swing" />
+        <module name="com.gunjan.test" />
+        <module name="com.gunjan.service.api" />
+        <module name="com.gunjan.util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="12">
+      <module name="com.gunjan.logging" target="12" />
+      <module name="com.gunjan.search" target="12" />
+      <module name="com.gunjan.service.api" target="12" />
+      <module name="com.gunjan.service.provider.swing" target="12" />
+      <module name="com.gunjan.test" target="12" />
+      <module name="com.gunjan.util" target="12" />
+      <module name="java9_module" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
