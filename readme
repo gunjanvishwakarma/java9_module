@@ -1,0 +1,8 @@
+java -version
+java --list-modules
+
+java -p /lib Test
+
+unnamed module (all jar files in classpath forms a unnamed module)
+automatic module - old stuff in module path
+explicitly named module (has a module descriptor)
